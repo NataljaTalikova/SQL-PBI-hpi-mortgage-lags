@@ -4,10 +4,10 @@ End-to-end analysis of UK housing prices and mortgage rates using SQL data marts
 
 ## 📂 Project Structure
 
-/sql/ -- SQL scripts for dim, stg, raw, marts
-/data/ -- Input datasets, snapshot CSVs for reproducibility
-/pbi/ -- Power BI * .pbix file,  * .csv snapshots, * . json files for colour scheme and London topography
-/docs/ -- Project brief and all key visualizations/images
+- /sql/ -- SQL scripts for dim, stg, raw, marts
+- /data/ -- Input datasets, snapshot CSVs for reproducibility
+- /pbi/ -- Power BI * .pbix file,  * .csv snapshots, * . json files for colour scheme and London topography
+- /docs/ -- Project brief and all key visualizations/images
 
 
 ---
