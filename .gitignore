@@ -1,0 +1,9 @@
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Power BI autosave and temp
+*.pbix-autosave
+~*
+*.tmp
+*.bak
