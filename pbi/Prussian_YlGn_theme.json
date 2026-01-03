@@ -1,0 +1,57 @@
+{
+  "name": "Prussian YlGn Theme",
+  "foreground": "#0B3C5D",
+  "background": "#FFFFFF",
+  "foregroundNeutralSecondary": "#0B3C5D",
+  "foregroundNeutralTertiary": "#0B3C5D",
+
+  "tableAccent": "#0B3C5D",
+
+  "dataColors": [
+    "#0B3C5D",
+    "#4CAF50",
+    "#F2C94C",
+    "#5DADE2",
+    "#A3E4D7"
+  ],
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#0B3C5D" } }
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#0B3C5D" } }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "rowBackground": { "solid": { "color": "#FFFFFF" } },
+            "alternateRowBackground": { "solid": { "color": "#E8F0F5" } },
+            "outlineColor": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#0B3C5D" } },
+            "background": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#0B3C5D" } },
+            "fontColorSecondary": { "solid": { "color": "#0B3C5D" } }
+          }
+        ]
+      }
+    }
+  }
+}
