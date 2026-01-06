@@ -5,11 +5,16 @@ End-to-end analysis of UK housing prices and mortgage rates using SQL data marts
 ## 📂 Project Structure
 
 - /sql/ -- SQL scripts for dim, stg, raw, marts
-- /data/ -- Input datasets, snapshot CSVs for reproducibility
+- /data/ -- Input datasets, snapshot CSVs for reproducibility *
 - /pbi/ -- Power BI * .pbix file,  * .csv snapshots, * . json files for colour scheme and London topography
 - /docs/ -- Project brief and all key visualizations/images
 
+* 
+The raw dataset UK-HPI-full-file-2024-11.csv (~59 MB) is not included due to GitHub file size limits.
+It can be downloaded from the original source:
+[Link to HPI data source](https://www.gov.uk/government/collections/uk-house-price-index-reports)
 
+All preprocessing steps and analysis logic are fully reproducible from the code
 ---
 
 ## 🔍 Project Overview
